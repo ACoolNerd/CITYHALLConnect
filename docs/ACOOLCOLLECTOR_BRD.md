@@ -1,25 +1,39 @@
-# ACoolCOLLECTOR Business Requirements Document (BRD)
+# ACoolCOLLECTOR Business Requirements Document
 
-## Project Summary
-ACoolCOLLECTOR is a collectibles intelligence platform focused on valuation, inventory management, and commerce automation for high-value niche markets (TCG, Sports, Memorabilia).
+## Mission
 
-## Objectives
-- Build a comprehensive card and memorabilia database.
-- Develop a "Collector Vault" for inventory tracking.
-- Automate auction tracking and price history analysis.
-- Provide a "Commerce Studio" for live selling and marketplace listing.
+ACoolCOLLECTOR is a collectibles intelligence platform for trading cards, memorabilia, auction and marketplace workflows, collector vaults, inventory intelligence, live selling support, authentication, provenance, content, and commerce.
 
-## Key Modules
-- **Collector Vault**: Digital inventory with high-res media and provenance logs.
-- **Auction Tracker**: Real-time monitoring of marketplace sales (eBay, Goldin, Heritage).
-- **Marketplace Listing Builder**: Automated listing generation across platforms.
-- **Provenance Log**: Digital chain of custody and authentication tracking.
+## Audiences
 
-## Technical Stack
-- Next.js 15+
-- Prisma / PostgreSQL (planned)
-- AI-driven image recognition for card identification.
+- Trading card collectors
+- Memorabilia collectors
+- Live sellers and creators
+- Local card shops and consignment operators
+- Auction and marketplace sellers
 
----
-**Status**: Phase 1 (Data Modeling)
-**Stakeholder**: ACoolCOLLECTOR Team / ACoolNERD
+## Core Modules
+
+- Collector Vault
+- Card Database
+- Auction Tracker
+- Marketplace Listing Builder
+- Inventory Dashboard
+- Creator Commerce Studio
+- Live Selling Toolkit
+- Authentication + Provenance Log
+
+## Requirements
+
+- Track item identity, condition, grading, acquisition, valuation, and sale status.
+- Support repeatable listing workflows for marketplaces.
+- Provide auction monitoring and watchlist workflows.
+- Capture provenance, authentication notes, and ownership history.
+- Support content-commerce workflows for live selling and creator channels.
+
+## Roadmap
+
+1. Define collectible schema and first category.
+2. Prototype vault and inventory dashboard.
+3. Create listing builder templates.
+4. Add provenance and live selling workflows.

@@ -1,10 +1,12 @@
 import Link from "next/link";
+import AgentChat from "../../components/ai/AgentChat";
+
 export default function ACoolAIPage() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-24 flex flex-col gap-12">
+    <div className="max-w-4xl mx-auto px-6 py-24 flex flex-col gap-24">
       <header className="flex flex-col gap-4">
         <div className="text-emerald-500 font-bold uppercase tracking-widest text-sm">Intelligence Layer</div>
-        <h1 className="text-5xl font-black text-white tracking-tighter">ACoolAI</h1>
+        <h1 className="text-5xl font-black text-white tracking-tighter uppercase">ACoolAI</h1>
         <p className="text-xl text-neutral-400 leading-relaxed">
           The intelligence engine of the ACoolECOSYSTEM, providing specialized AI agents, strategy, and workflow automation.
         </p>
@@ -28,23 +30,13 @@ export default function ACoolAIPage() {
         </div>
       </section>
 
-      <section className="flex flex-col gap-6">
-        <h2 className="text-2xl font-bold text-white">Agent Stack</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            "ACoolPROMPT: Meta-prompting engine",
-            "ACoolDATASET: Knowledge graph manager",
-            "ACoolDASHBOARD: Visual intelligence",
-            "ACoolBUSINESS: Operations automation",
-            "ACoolCREATOR: Media generation",
-            "ACoolCOLLECTOR: Commerce intelligence"
-          ].map(agent => (
-            <div key={agent} className="px-4 py-3 rounded-lg border border-neutral-800 bg-neutral-900/50 text-neutral-300 text-sm">
-              {agent}
-            </div>
-          ))}
+      <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-2">
+            <h2 className="text-3xl font-bold text-white tracking-tight uppercase">ACoolPROMPT Orchestrator</h2>
+            <p className="text-neutral-500">Interact with the ecosystem&apos;s primary reasoning agent.</p>
         </div>
-      </section>
+        <AgentChat />
+      </div>
 
       <section className="p-8 rounded-2xl bg-emerald-900/10 border border-emerald-900/30 flex flex-col gap-4">
         <h2 className="text-xl font-bold text-white">Implementation Roadmap</h2>

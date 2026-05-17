@@ -1,24 +1,39 @@
-# CITYHALLConnect Business Requirements Document (BRD)
+# CITYHALLConnect Business Requirements Document
 
-## Project Summary
-CITYHALLConnect is a civic intelligence platform that modernizes how residents interact with local government services, public data, and decision-making processes.
+## Mission
 
-## Objectives
-- Create a user-friendly interface for city service navigation (311+).
-- Track public meetings and provide AI-summarized insights.
-- Provide community organizers with campaign and outreach toolkits.
-- Build a verified directory of local government stakeholders.
+CITYHALLConnect is a civic intelligence platform for city services navigation, public meeting tracking, issue intake and case routing, open data dashboards, stakeholder directories, community campaign tooling, and AI civic assistance.
 
-## Core Features
-- **Civic Engine**: AI-assisted routing for service requests.
-- **Meeting Tracker**: Calendar and transcription/summary of public hearings.
-- **Issue Intake**: Streamlined reporting for infrastructure and service issues.
-- **Stakeholder Directory**: Map of city officials, departments, and influencers.
+## Audiences
 
-## GovCon Positioning
-- **Target**: Municipalities, County Governments, and LA28 Stakeholders.
-- **Focus**: Digital modernization, community engagement, and transparency.
+- Residents
+- Neighborhood councils and community organizers
+- Local government offices
+- Small businesses and vendors
+- Public engagement teams
+- Workforce and entrepreneurship partners
 
----
-**Status**: Phase 2 (Alpha Development)
-**Stakeholder**: ACoolNERD
+## Core Modules
+
+- Civic Resource Directory
+- Public Meeting Tracker
+- Issue Intake + Case Routing
+- Open Data Dashboard
+- Stakeholder Directory
+- Community Campaign Toolkit
+- AI Civic Assistant
+
+## Requirements
+
+- Provide plain-English civic navigation.
+- Organize agencies, services, contacts, meetings, and records.
+- Route issues by category, location, urgency, and responsible stakeholder.
+- Support dashboards for public engagement and service visibility.
+- Produce accessible public-facing content and internal operating views.
+
+## Roadmap
+
+1. Define pilot geography and service taxonomy.
+2. Build civic resource directory prototype.
+3. Design issue intake and routing schema.
+4. Add public meeting and stakeholder tracking.

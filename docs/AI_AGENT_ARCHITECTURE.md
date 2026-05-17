@@ -1,25 +1,31 @@
 # AI Agent Architecture
 
-## Overview
-The ACoolAI Agent Stack is built on a modular framework designed for high-fidelity reasoning, retrieval-augmented generation (RAG), and autonomous action within the ACoolECOSYSTEM.
+## Purpose
 
-## The Agent Stack
-1. **Orchestrator Layer (ACoolPROMPT)**:
-   - Handles meta-prompting.
-   - Routes tasks to specialized agents.
-   - Manages context and state across brand boundaries.
-2. **Knowledge Layer (ACoolDATASET)**:
-   - Interface to the ACoolKNOWLEDGEBASE.
-   - Manages vector embeddings and retrieval.
-3. **Execution Layer**:
-   - **CITYHALL Civic Agent**: Tools for scraping public records, summarizing meetings, and routing 311 intake.
-   - **COLLECTOR Agent**: Tools for price lookup, image identification, and marketplace API interaction.
-   - **BUSINESS Agent**: Tools for calendar, email, and task management.
+The ACoolAI agent stack supports repeatable workflows across ACoolECOSYSTEM. Agents should be designed with clear roles, documented inputs, documented outputs, quality checks, and escalation paths.
 
-## Technical Patterns
-- **TypeScript interfaces** for all agent messages.
-- **Strict schemas** for tool/function calls.
-- **Chain-of-thought** reasoning logs for transparency.
+## Agent Stack
 
----
-**Status**: v1.0 Specification
+- ACoolPROMPT Agent: prompt creation, prompt refinement, template libraries, and evaluation rubrics.
+- ACoolDASHBOARD Agent: metric definition, dashboard outlines, reporting summaries, and data visualization briefs.
+- ACoolDATASET Agent: schema proposals, metadata, data quality checks, and dataset documentation.
+- ACoolKNOWLEDGEBASE Agent: documentation organization, retrieval structures, SOPs, and decision logs.
+- ACoolBUSINESS Agent: offers, operations, planning, proposals, and business intelligence workflows.
+- ACoolCREATOR Agent: content calendars, publishing workflows, creator-commerce support, and brand consistency.
+- ACoolCOLLECTOR Agent: item records, marketplace listings, auction notes, valuation context, and provenance logs.
+- CITYHALLConnect Civic Agent: city service navigation, issue intake support, public meeting summaries, stakeholder routing, and civic education.
+
+## Operating Principles
+
+- Keep every agent role narrow enough to evaluate.
+- Record source assumptions and data freshness.
+- Avoid collecting or exposing secrets, private credentials, or unnecessary personal data.
+- Use human review for public, legal, procurement, financial, or high-impact outputs.
+- Connect agents to ACoolKNOWLEDGEBASE only after documentation is structured and reviewed.
+
+## Implementation Roadmap
+
+1. Define prompts, inputs, outputs, and refusal boundaries.
+2. Create test cases for each agent.
+3. Connect agents to structured datasets and docs.
+4. Add dashboard reporting for agent activity and outcomes.

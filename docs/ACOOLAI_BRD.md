@@ -1,28 +1,41 @@
-# ACoolAI Business Requirements Document (BRD)
+# ACoolAI Business Requirements Document
 
-## Project Summary
-ACoolAI is the intelligence and automation layer for the ACoolECOSYSTEM. It specializes in agentic workflows, meta-prompting, and business intelligence.
+## Mission
 
-## Objectives
-- Deploy a unified agent stack for ecosystem brands.
-- Provide high-fidelity AI strategy consulting.
-- Automate complex business and creative workflows.
-- Manage the ACoolKNOWLEDGEBASE and ACoolDATASET.
+ACoolAI is the AI strategy and automation layer for ACoolECOSYSTEM. It supports prompt engineering, agent design, workflow automation, business intelligence, civic intelligence, creator and business operations support, and internal ACoolECOSYSTEM agent infrastructure.
 
-## Agent Architecture
-- **ACoolPROMPT**: The primary orchestration agent for prompt engineering.
-- **ACoolDATASET**: Handles RAG and proprietary knowledge retrieval.
-- **ACoolDASHBOARD**: Visualizes system state and business metrics.
-- **CITYHALL Civic Agent**: Specialized for civic data and resident interaction.
+## Audiences
 
-## Key Capabilities
-- **Strategic Automation**: Mapping business goals to agentic workflows.
-- **Agent Design**: Architecting autonomous LLM-driven workers.
-- **Knowledge Management**: Construction of interlinked system wikis.
+- Small businesses and operators seeking practical automation
+- Civic and nonprofit teams modernizing workflows
+- Creators building content and commerce systems
+- Internal ACoolECOSYSTEM product teams
+- Training and workforce partners
 
-## Success Metrics (Timmy Score)
-Targeting a consistent **9.8/10** for output quality, documentation clarity, and system reliability.
+## Core Capabilities
 
----
-**Status**: Phase 1 (Foundation)
-**Stakeholder**: ACoolNERD
+- AI strategy and use-case prioritization
+- Prompt engineering and prompt libraries
+- Agent design and evaluation
+- Workflow automation mapping
+- Business intelligence and dashboard support
+- Civic intelligence workflows
+- Creator and business operations support
+
+## Agent Concepts
+
+- ACoolPROMPT Agent: creates, tests, and organizes prompt systems.
+- ACoolDASHBOARD Agent: turns metrics and datasets into reporting plans.
+- ACoolDATASET Agent: supports schema design, metadata, and data quality.
+- ACoolKNOWLEDGEBASE Agent: organizes docs and retrieval-ready knowledge.
+- ACoolBUSINESS Agent: supports operations, planning, offers, and reporting.
+- ACoolCREATOR Agent: supports content calendars, publishing, and commerce.
+- ACoolCOLLECTOR Agent: supports inventory, listings, provenance, and auctions.
+- CITYHALLConnect Civic Agent: supports civic navigation, issue intake, and public information workflows.
+
+## Roadmap
+
+1. Define agent roles, boundaries, and quality checks.
+2. Create prompt packs for civic, business, creator, and collector workflows.
+3. Prototype dashboard-ready outputs.
+4. Add evaluation rubrics and operating procedures.

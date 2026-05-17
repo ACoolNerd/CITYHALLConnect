@@ -1,27 +1,29 @@
 # ACoolECOSYSTEM Capability Sheet
 
 ## Summary
-The ACoolECOSYSTEM provides elite technical and strategic services across civic technology, AI infrastructure, and data-driven commerce.
 
-## Technical Capabilities
-- **Full-Stack Development**: Next.js, TypeScript, React, Node.js.
-- **AI Architecture**: LLM agent design, meta-prompting, RAG systems.
-- **Data Engineering**: Knowledge graph construction, proprietary dataset management.
-- **Infrastructure**: Scalable cloud deployments (Vercel, AWS, ACool Cloud).
+ACoolECOSYSTEM provides product strategy, civic-tech architecture, AI automation, data dashboards, documentation systems, creator-commerce workflows, collectibles intelligence, and training support.
 
-## Strategic Capabilities
-- **Civic Strategy**: Local government engagement, public meeting tracking.
-- **Market Intelligence**: Collectibles valuation, auction analytics.
-- **Workflow Automation**: Process mapping and agentic implementation.
-- **Brand Systems**: High-fidelity UI/UX and brand architecture design.
+## Capability Areas
 
-## Government Contracting
-- **NAICS Codes**:
-  - 541511: Custom Computer Programming Services
-  - 541512: Computer Systems Design Services
-  - 541611: Administrative Management and General Management Consulting Services
-- **Focus**: LA28 Civic Support, Digital Modernization, Community Outreach.
+- Civic intelligence and service navigation
+- Public meeting and stakeholder tracking
+- Issue intake and case routing
+- Open data dashboard design
+- AI strategy and agent architecture
+- Prompt engineering and workflow automation
+- Business intelligence and reporting
+- Collector vaults, inventory dashboards, and marketplace workflows
+- Training, enablement, and knowledgebase design
+- Government contracting positioning and partner documentation
 
----
-**Lead Architect**: Keith McPherson (ACoolNERD)
-**Contact**: iam@acoolnerd.com
+## Delivery Formats
+
+- Public web platform
+- Partner capability sheets
+- Business requirements documents
+- Workflow maps
+- Dashboard prototypes
+- Prompt libraries
+- Training materials
+- Pilot implementation plans

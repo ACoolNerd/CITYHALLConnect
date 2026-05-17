@@ -1,21 +1,24 @@
-# ACoolECOSYSTEM 90-Day Roadmap
+# 90-Day Roadmap
 
-## Phase 1: Foundation (Days 1-30) - **IN PROGRESS**
-- [x] Initialize central repository (CITYHALLConnect).
-- [x] Define brand architecture and MEAP Phase-2 governance.
-- [x] Establish technical standards (TypeScript, Next.js, Premium Dark UI).
-- [ ] Complete brand data models (brands.ts, modules.ts).
+## Days 1-30: Foundation
 
-## Phase 2: Alpha Development (Days 31-60)
-- [ ] **CITYHALLConnect**: Build core Civic Engine (311 routing + meeting tracker).
-- [ ] **ACoolAI**: Deploy primary Orchestrator (ACoolPROMPT) and Knowledge agent.
-- [ ] **Ecosystem**: Launch unified homepage and route pages.
+- Publish ACoolECOSYSTEM public command center.
+- Finalize README, agent instructions, and documentation set.
+- Define first schemas for civic resources, collector inventory, prompts, dashboards, and knowledgebase content.
+- Prioritize pilot audiences and partner conversations.
 
-## Phase 3: Integration & Beta (Days 61-90)
-- [ ] **ACoolCOLLECTOR**: Alpha release of Collector Vault and Card Database.
-- [ ] **GovCon**: Finalize NAICS registration and capability sheet distribution.
-- [ ] **Launch**: Internal ecosystem stress test and private beta for community stakeholders.
+## Days 31-60: Prototype
 
----
-**Lead**: ACoolNERD
-**Cluster**: 01 / 02
+- Build CITYHALLConnect civic directory prototype.
+- Create ACoolAI prompt packs and agent test cases.
+- Mock ACoolCOLLECTOR vault and marketplace listing workflow.
+- Create first ACoolDASHBOARD wireframes.
+- Convert key docs into presentation-ready partner assets.
+
+## Days 61-90: Pilot
+
+- Run stakeholder demos.
+- Test AI agent workflows with reviewed sample data.
+- Validate government contracting positioning.
+- Prepare deployment plan, analytics plan, and maintenance process.
+- Define next build scope for authenticated tools and live data.

@@ -1,27 +1,22 @@
 # ACoolECOSYSTEM Overview
 
-## Vision
-The ACoolECOSYSTEM is a multi-brand cooperative digital architecture focused on civic intelligence, AI infrastructure, and niche commerce. It operates on a "hub-and-spoke" model where a central governance layer (MEAP Phase-2) ensures consistency and high-fidelity output across all entities.
+ACoolECOSYSTEM is a connected platform family for civic intelligence, AI infrastructure, creator-commerce, collectibles intelligence, data products, training, dashboards, prompts, and knowledge operations.
 
-## Core Pillars
-1. **Civic Strategy (CITYHALLConnect)**: Navigating the complexities of local government and public engagement.
-2. **Artificial Intelligence (ACoolAI)**: The intelligence and automation engine powering the ecosystem.
-3. **Commerce & Collectibles (ACoolCOLLECTOR)**: Data-driven valuation and marketplace management for high-value assets.
+## Operating Thesis
 
-## Entity Cluster (MEAP Phase-2)
-- **Cluster 01 (Holdings)**: Strategic oversight and asset management.
-- **Cluster 02 (Nerd)**: Technical development and R&D.
-- **Cluster 03 (Trust)**: Governance, compliance, and legal frameworks.
-- **Cluster 04 (Academy)**: Educational outreach and workforce training.
-- **Cluster 06 (Sing)**: Media, creative, and entertainment.
-- **Cluster 07 (Finance)**: Economic modeling and treasury.
+Modern operators need systems that combine public information, automation, commerce workflows, trusted documentation, and decision-ready dashboards. ACoolECOSYSTEM creates one coordinated foundation where each brand has a clear mission and each module can become a product, service, training track, or implementation package.
 
-## Technical Foundation
-- Unified Git standards.
-- TypeScript-first development.
-- Dark Premium UI/UX systems.
-- Proprietary AI Agent stack.
+## Core Brands
 
----
-**Last Updated**: 2026-05-17
-**Author**: ACoolNERD
+- CITYHALLConnect: civic intelligence, service navigation, public meetings, issue intake, open data, and community action.
+- ACoolAI: AI strategy, prompt engineering, agent design, workflow automation, and business intelligence.
+- ACoolCOLLECTOR: collectibles intelligence, inventory systems, marketplace workflows, auctions, provenance, and live selling.
+- ACoolDATASET: structured datasets for civic, commerce, creator, and operational intelligence.
+- ACoolACADEMY: training and enablement for AI, civic tools, entrepreneurship, and creator operations.
+- ACoolDASHBOARD: dashboards and reporting systems.
+- ACoolPROMPT: reusable prompts and agent instructions.
+- ACoolKNOWLEDGEBASE: durable operating knowledge and retrieval-ready documentation.
+
+## Product Direction
+
+The first public surface should explain the ecosystem, provide strong capability positioning, and support partner conversations. The next phase should add interactive tools, data models, AI assistant workflows, and pilot dashboards.
