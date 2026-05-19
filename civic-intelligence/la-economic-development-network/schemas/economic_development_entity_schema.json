@@ -1,0 +1,28 @@
+{
+  "record_type": "economic_development_entity",
+  "required_fields": [
+    "name",
+    "entity_type",
+    "jurisdiction",
+    "source_url",
+    "scrape_date",
+    "confidence_score",
+    "review_status"
+  ],
+  "optional_fields": [
+    "address",
+    "phone",
+    "email",
+    "programs",
+    "languages",
+    "council_district",
+    "neighborhood_council",
+    "chamber_affiliation",
+    "notes"
+  ],
+  "prohibited_inference": [
+    "business_owner_name_without_source",
+    "political_relationship_without_source",
+    "funding_amount_without_source"
+  ]
+}
