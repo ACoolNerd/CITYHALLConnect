@@ -1,0 +1,14 @@
+module,purpose,status
+CITYHALLConnect,City government navigation and intelligence,Active
+CHAMBERConnect,Chamber and business association mapping,Active
+CITIZENConnect,Resident service and public-participation routing,Active
+BUSINESSConnect,Business lifecycle support,Active
+COUNCILConnect,Council and legislative intelligence,Planned
+NEIGHBORConnect,Neighborhood Council signal tracking,Planned
+DATAConnect,Public data and report library,Active
+GRANTConnect,Grant and funding pipeline,Planned
+PROCUREConnect,Procurement and vendor readiness,Active
+PROGRAMConnect,Program and service referral system,Planned
+BRANDConnect,Civic branding and official asset intelligence,Active
+SOURCEConnect,Proof and citation governance engine,Active
+AGENTConnect,ACoolAI agent system for civic operations,Active
