@@ -1,3 +1,0 @@
-# Test
-
-ACooCITY wiki page.
